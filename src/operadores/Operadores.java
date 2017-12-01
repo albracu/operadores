@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Operadores {
     public static void main(String[] args) {
         int primernumero, segundonumero, resultadosuma, resultadoresta, resultadomult, resultadodiv;
-        primernumero = 3;
-        segundonumero = 5;
+        primernumero = 10;
+        segundonumero = 3;
         resultadosuma = primernumero + segundonumero;
         resultadoresta = primernumero - segundonumero;
         resultadomult = primernumero * segundonumero;
@@ -33,11 +33,12 @@ public class Operadores {
                         break;
 
                     case 3:
-                        System.out.println("El resultado de la Division es: " + resultadodiv);
+
+                        System.out.println("El resultado de la Multiplicacion es: " + resultadomult);
                         break;
 
                     case 4:
-                        System.out.println("El resultado de la Multiplicacion es: " + resultadomult);
+                        System.out.println("El resultado de la Division es: " + resultadodiv);
                         break;
 
                     default:
