@@ -3,11 +3,13 @@ package matrices;
 public class Matrices {
 
     public static void main(String[] args) {
-        String nombres[][] = {{"Alfredo", "Milena", "Isabella", "Nelly", "Andrea"},{"Diego Andres", "Neira", "Bolivar", "Jhonatan", "Gabriel"}};
+        String nombres[] = {"Alfredo", "Milena", "Isabella", "Nelly", "Andrea"};
 
-        System.out.println(nombres[0][0]);
-
+        for (String x :nombres) {
+            System.out.println("Estamos Imprimiendo a: "+ x);
+        }
 
     }
+
 
 }

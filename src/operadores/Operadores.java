@@ -16,7 +16,7 @@ public class Operadores {
 
         System.out.println("Marque el numero deacuerdo a la operacion: \n 1. Suma \n 2. Resta \n 3. Multiplicacion \n 4. Division");
 
-        for ( int i = 0; i >= 0; i++ ) {
+        for ( int i = 0; i < 10; i++ ) {
 
             int value = ingreso.nextInt();
 
